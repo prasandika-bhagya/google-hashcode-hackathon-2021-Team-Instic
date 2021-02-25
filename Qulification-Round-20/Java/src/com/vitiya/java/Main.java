@@ -38,3 +38,7 @@ class Library {
 class Time {
     private int numberOfDays;
 }
+
+class Scanning {
+
+}
