@@ -2,7 +2,7 @@ class TeamInsticSolution:
     def __init__(self) -> None:
         super().__init__()
         self.data = None
-        self.input_file_name = './input/a.txt'
+        self.input_file_name = './input/e.txt'
         self.output_file_name = 'instic_solution.txt'
         self.STREETS = {}
         self.CARS = {}
