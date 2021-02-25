@@ -1,5 +1,6 @@
 package com.vitiya.java;
 
+//main class
 public class Main {
     public static void main(String[] args) {
         System.out.println("Google Hashcode");
@@ -23,7 +24,9 @@ class Library {
     private Time timeTakenForScan;
     private int numberOfBooksScanned;
 
+   //library
     public Library(int libraryId, Books[] books, Time timeTakenForScan, int numberOfBooksScanned) {
+        
         this.libraryId = libraryId;
         this.books = books;
         this.timeTakenForScan = timeTakenForScan;
@@ -35,6 +38,7 @@ class Library {
  * There are D days from day 0 to day D–1. The rst library signup can sta on day 0. D–1
  * is the last day during which books can be shipped to the scanning facility
  * **/
+
 class Time {
     private int numberOfDays;
 }
